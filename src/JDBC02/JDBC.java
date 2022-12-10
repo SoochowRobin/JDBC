@@ -1,5 +1,7 @@
 package JDBC02;
 
+import DButil.DButil;
+
 import javax.annotation.Resource;
 import java.sql.*;
 import java.util.ResourceBundle;
@@ -92,7 +94,7 @@ public class JDBC {
             throw new RuntimeException(e);
         }finally {
             //step 6: close all resources
-            if(resultSet != null){
+            /*if(resultSet != null){
                 try {
                     resultSet.close();
                 } catch (SQLException e) {
@@ -115,7 +117,10 @@ public class JDBC {
                 } catch (SQLException e) {
                     throw new RuntimeException(e);
                 }
-            }
+            }*/
+
+            // use DButil
+            DButil.close(resultSet, statement, connection);
         }
 
 
