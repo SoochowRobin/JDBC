@@ -1,4 +1,4 @@
-package mockJDBC;
+package mockJDBC01;
 
 import java.util.ResourceBundle;
 
@@ -19,7 +19,7 @@ public class JavaProgrammer {
         // we could use reflection,
         // use ResourceBundle to get resource
         // use ResourceBundle getString method to get properties from file
-        ResourceBundle bundle = ResourceBundle.getBundle("mockJDBC/JDBC");
+        ResourceBundle bundle = ResourceBundle.getBundle("mockJDBC01/JDBC");
         String driverName = bundle.getString("db");
 
         // use reflection to create

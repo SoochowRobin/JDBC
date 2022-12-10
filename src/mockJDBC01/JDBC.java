@@ -1,4 +1,4 @@
-package mockJDBC;
+package mockJDBC01;
 
 /**
  * SUN company defines the interface for SQL companies to implement these methods

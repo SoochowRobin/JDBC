@@ -1,4 +1,4 @@
-package mockJDBC;
+package mockJDBC01;
 /**
  * MySQL company will implement JDBC interface: MySQL driver
  */

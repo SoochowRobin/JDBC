@@ -1,4 +1,4 @@
-# mockJDBC folder is to mock the essence of JDBC.
+# mockJDBC01 folder is to mock the essence of JDBC.
 
 The essence of JDBC is an interface: And JavaProgrammer call the interface method. And SQL companies use Stream to
 implement these interface Under the hood. Finally, They zip these class files to jar. We called it driver. For example, 

@@ -1,4 +1,4 @@
-package mockJDBC;
+package mockJDBC01;
 
 /**
  * Oracle company will implement JDBC interface: Oracle driver
